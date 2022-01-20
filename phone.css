@@ -1,0 +1,70 @@
+
+
+
+/* ipad pro  */
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .menu-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+ }
+
+ /* ipad  */
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .logos img {
+   
+        max-width: 200px;
+    }
+    .secondary {
+       
+        margin-bottom: 0;
+    }
+    .menu {
+        flex-wrap: wrap;
+    }
+}
+/* mobile  */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .navbar ul li {
+        
+        font-size: 16px;
+    }
+    .navbar {
+    
+        flex-direction: column;
+    
+         height: auto; 
+        
+    }
+    .navbar ul {
+        margin-top: 0;
+  
+        padding-left: 0;
+    }
+    .mlogo img {
+        width: 120px;
+        margin: 0px;
+    }
+    .mlogo {
+        margin: 0px;
+    }
+    .home p {
+        font-size: 16px;
+    }
+    .primary {
+        font-size: 28px;
+    }
+    .home {
+        padding: 59px;
+    }
+    .other-services {
+        flex-wrap: wrap;
+    }
+    footer {
+        font-size: 14px;
+    }
+ }
